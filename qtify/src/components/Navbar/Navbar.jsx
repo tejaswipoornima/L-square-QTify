@@ -7,9 +7,7 @@ import Search from "../Search/Search";
 function Navbar(){
     return (
         <nav className={styles.navbar}>
-            <a href="/">
-                <Logo/>
-            </a>
+            <Logo/>
             <Search placeholder="Search a song of your choice"/>
             <Button>Give Feedback</Button>
         </nav>
