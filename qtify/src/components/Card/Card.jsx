@@ -30,11 +30,11 @@ export default function Card({data,type}){
                 )
             }
             case "song":{
-                const {image,likes,title} =data;
+                const {image,likes,title} = data;
                 return (
                     <div className={styles.wrapper}>
                         <div className={styles.card}>
-                            <img src={image} alt="album" loading="lazy"/>
+                            <img src={image} alt="song" loading="lazy"/>
                                 <div className={styles.banner}>
                                     <div className={styles.pills}>
                                         <p>{likes} Likes</p>
