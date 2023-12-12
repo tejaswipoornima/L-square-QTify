@@ -29,7 +29,7 @@ export default function Card({data,type}){
                     </Tooltip>
                 )
             }
-            case "song":{
+            case "songs":{
                 const {image,likes,title} = data;
                 return (
                     <div className={styles.wrapper}>
